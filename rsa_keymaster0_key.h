@@ -56,7 +56,6 @@ class RsaKeymaster0KeyFactory : public RsaKeyFactory {
 
   private:
     const Keymaster0Engine* engine_;
-    const SoftKeymasterContext* soft_context_;
 };
 
 class RsaKeymaster0Key : public RsaKey {
